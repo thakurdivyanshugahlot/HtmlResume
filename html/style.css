@@ -1,0 +1,88 @@
+*,
+* ::before,
+* ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.resume {
+  width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  background: #fff;
+  color: #000;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.contact {
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+/* SECTIONS */
+.section {
+  margin-bottom: 28px;
+}
+
+.section h2 {
+  font-size: 16px;
+  margin: 0 0 12px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #000;
+}
+
+/* ROW LAYOUT */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.left {
+  width: 70%;
+  font-size: 14px;
+}
+
+.right {
+  width: 30%;
+  text-align: right;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+/* LISTS */
+ul {
+  margin: 6px 0 14px 20px;
+  padding: 0;
+}
+
+li {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+/* PARAGRAPHS */
+p {
+  font-size: 13px;
+  margin: 0;
+}
